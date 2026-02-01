@@ -1638,14 +1638,14 @@ td, th {
 }
 
 
-.accueil-nav, .architectures-nav, .verites-nav, .prochaine, .prochaine1 {
+.accueil-nav, .architectures-nav, .verites-nav, .prochaine, .prochaine1, .video {
     position: relative;
     text-decoration: none; 
     color: inherit;
 }
 
 
-.accueil-nav::after, .architectures-nav::after, .verites-nav::after, .prochaine::after, .prochaine1::after {
+.accueil-nav::after, .architectures-nav::after, .verites-nav::after, .prochaine::after, .prochaine1::after, .video::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -1658,12 +1658,12 @@ td, th {
     transition: transform 0.4s ease-out; 
 }
 
-.accueil-nav:hover::after,.architectures-nav:hover::after,.verites-nav:hover::after, .prochaine:hover::after, .prochaine1:hover::after {
+.accueil-nav:hover::after,.architectures-nav:hover::after,.verites-nav:hover::after, .prochaine:hover::after, .prochaine1:hover::after, .video:hover::after {
     transform: scaleX(1); 
     transform-origin: bottom left;
 }
 
-.accueil-nav:hover,.architectures-nav:hover,.verites-nav:hover, .prochaine:hover, .prochaine1:hover {
+.accueil-nav:hover,.architectures-nav:hover,.verites-nav:hover, .prochaine:hover, .prochaine1:hover, .video:hover {
     opacity: 0.8;
 }
 

@@ -933,6 +933,7 @@ nav:hover {
     text-decoration: none;
     font-size: 20px;
     padding-right: 60px;
+    transition: all 0.4s ease-in-out;
 }
 
 footer { 
@@ -1108,6 +1109,7 @@ footer:hover {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     opacity: 0.9;
+    transition: all 0.4s ease-in-out;
 }
 
 .golden {
@@ -1635,3 +1637,43 @@ td, th {
     align-items: flex-end;
 }
 
+
+.accueil-nav, .architectures-nav, .verites-nav, .prochaine, .prochaine1 {
+    position: relative;
+    text-decoration: none; 
+    color: inherit;
+}
+
+
+.accueil-nav::after, .architectures-nav::after, .verites-nav::after, .prochaine::after, .prochaine1::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;         
+    bottom: -5px;         
+    left: 0;
+    background-color: #55a36b;
+    transform-origin: bottom right;
+    transition: transform 0.4s ease-out; 
+}
+
+.accueil-nav:hover::after,.architectures-nav:hover::after,.verites-nav:hover::after, .prochaine:hover::after, .prochaine1:hover::after {
+    transform: scaleX(1); 
+    transform-origin: bottom left;
+}
+
+.accueil-nav:hover,.architectures-nav:hover,.verites-nav:hover, .prochaine:hover, .prochaine1:hover {
+    opacity: 0.8;
+}
+
+.accueil-nav {
+    transition: all 0.4s ease-in-out;
+}
+
+.architectures-nav {
+transition: all 0.4s ease-in-out;
+}
+.verites-nav {
+transition: all 0.4s ease-in-out;
+}

@@ -1368,14 +1368,14 @@ footer:hover {
 
 
 .l1, .l1::after { animation-delay: 1s; }
-.l2, .l2::after { animation-delay: 2s; }
-.l3, .l3::after { animation-delay: 3s; }
-.l4, .l4::after { animation-delay: 4s; }
-.l5, .l5::after { animation-delay: 5s; }
-.l6, .l6::after { animation-delay: 6s; }
-.l7, .l7::after { animation-delay: 7s; }
-.l8, .l8::after { animation-delay: 8s; }
-.l9, .l9::after { animation-delay: 9s; }
+.l2, .l2::after { animation-delay: 4s; }
+.l3, .l3::after { animation-delay: 7s; }
+.l4, .l4::after { animation-delay: 10s; }
+.l5, .l5::after { animation-delay: 13s; }
+.l6, .l6::after { animation-delay: 16s; }
+.l7, .l7::after { animation-delay: 19s; }
+.l8, .l8::after { animation-delay: 21s; }
+.l9, .l9::after { animation-delay: 24s; }
 
 @keyframes rendre-visible { to { visibility: visible; } }
 
@@ -1464,8 +1464,8 @@ footer:hover {
 }
 
 .pere {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 70px;
     margin-bottom: 100px;
     text-align: justify;
@@ -1531,8 +1531,8 @@ footer:hover {
 
 
 .peuple {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 150px;
+    margin-right: 150px;
     margin-top: 70px;
     margin-bottom: 100px;
     text-align: justify;

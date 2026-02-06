@@ -306,33 +306,6 @@ footer:hover {
     background-position: 100% center;
 }
 
-.titre-1-1 {
-    display: inline-flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-    line-height: 1.2;
-    font-weight: 800;
-}
-
-.letter, .space {
-    display: inline-block;
-    transform: translateY(110%);
-    animation: reveal 1.5s cubic-bezier(0.2, 0.5, 0.1, 1) forwards;
-    animation-delay: calc(var(--i) * 0.1s);
-    color: #0a3622;
-}
-
-.space {
-    width: 0.3em;
-}
-
-@keyframes reveal {
-    to {
-        transform: translateY(0);
-    }
-}
-
-
 .containeur-1-1 {
     display: flex;
     flex-direction: column;

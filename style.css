@@ -575,14 +575,14 @@ footer:hover {
 
 
 .l1, .l1::after { animation-delay: 1s; }
-.l2, .l2::after { animation-delay: 4s; }
-.l3, .l3::after { animation-delay: 7s; }
-.l4, .l4::after { animation-delay: 10s; }
-.l5, .l5::after { animation-delay: 13s; }
-.l6, .l6::after { animation-delay: 16s; }
-.l7, .l7::after { animation-delay: 19s; }
-.l8, .l8::after { animation-delay: 21s; }
-.l9, .l9::after { animation-delay: 24s; }
+.l2, .l2::after { animation-delay: 2.5s; }
+.l3, .l3::after { animation-delay: 3.9s; }
+.l4, .l4::after { animation-delay: 5s; }
+.l5, .l5::after { animation-delay: 6.2s; }
+.l6, .l6::after { animation-delay: 8s; }
+.l7, .l7::after { animation-delay: 9.2s; }
+.l8, .l8::after { animation-delay: 10.1s; }
+.l9, .l9::after { animation-delay: 11.3; }
 
 @keyframes rendre-visible { to { visibility: visible; } }
 
